@@ -1,0 +1,15 @@
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\bin\x86\Debug\notePadProj.exe
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\bin\x86\Debug\notePadProj.pdb
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.formLogin.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.formMain.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.Properties.Resources.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.csproj.GenerateResource.Cache
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.exe
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.pdb
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\bin\x86\Debug\notePadProj.exe.config
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.FormProj.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.FormAttachment.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\Interop.VBIDE.dll
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.csproj.ResolveComReference.cache
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.FormSetting.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\x86\Debug\notePadProj.FormNotify.resources

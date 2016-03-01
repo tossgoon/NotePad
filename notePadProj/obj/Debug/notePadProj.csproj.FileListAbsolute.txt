@@ -1,0 +1,9 @@
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\bin\Debug\notePadProj.exe
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\bin\Debug\notePadProj.pdb
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.csprojResolveAssemblyReference.cache
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.formLogin.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.Properties.Resources.resources
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.csproj.GenerateResource.Cache
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.exe
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.pdb
+F:\项目\2016\4.记事本程序开发\notePadProj\notePadProj\obj\Debug\notePadProj.formMain.resources

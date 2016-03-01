@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15F2E3C8-6C41-401A-8A25-B3E8A4885602}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>notePadProj</RootNamespace>
+    <AssemblyName>notePadProj</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CAttachment.cs" />
+    <Compile Include="CDBOperate.cs" />
+    <Compile Include="CDoubleBufferDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CEmail.cs" />
+    <Compile Include="CExportWord.cs" />
+    <Compile Include="CNotify.cs" />
+    <Compile Include="CProject.cs" />
+    <Compile Include="CUser.cs" />
+    <Compile Include="FormAttachment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAttachment.Designer.cs">
+      <DependentUpon>FormAttachment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNotify.Designer.cs">
+      <DependentUpon>FormNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProj.Designer.cs">
+      <DependentUpon>FormProj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSetting.Designer.cs">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAttachment.resx">
+      <DependentUpon>FormAttachment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNotify.resx">
+      <DependentUpon>FormNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProj.resx">
+      <DependentUpon>FormProj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSetting.resx">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="bin\x86\Release\data\model\DataModel.docx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\atsmissing.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\switch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\newfile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\save.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\addattachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\refresh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\openfolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\forbidden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\nonpicture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\loginbk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\loginbk3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\notepad.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\search2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\search3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\selectre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\reselect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\unselect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\notify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\seneemail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\topblue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\x86\Debug\icons\topred.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
